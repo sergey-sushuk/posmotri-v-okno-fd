@@ -168,7 +168,6 @@ ol {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   text-transform: uppercase;
-  line-height: 34px;
 }
 
 .content__video-card-description {
@@ -273,11 +272,13 @@ input[type='checkbox']:checked+span:after {
 
 .more-button {
   width: calc(100% - 6px);
-  margin: 0 3px 3px;}
+  margin: 0 3px 3px;
+}
 
 .button:hover {
 text-decoration: underline;
-cursor: pointer;}
+cursor: pointer;
+}
 
 .button:active {
   background: rgba(84, 80, 80, 1);
