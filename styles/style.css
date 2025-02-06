@@ -339,3 +339,7 @@ button:focus-visible {
 .search-form__fieldset:nth-child(2) {
   padding-left: 6px;
 }
+
+.search-form__textfield:active {
+border: none;
+}
